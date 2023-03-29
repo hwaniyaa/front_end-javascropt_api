@@ -1,0 +1,30 @@
+.header-line {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+}
+.menus {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #111;
+  border-bottom: 4px double #111;
+}
+.menus button {
+  margin: 5px;
+  background: none;
+  border: none;
+}
+.menus button:hover {
+  background-color: beige;
+  border-radius: 3px;
+}
+.news-img-size {
+  max-width: 100%;
+  max-height: 250px;
+}
+.news {
+  border-bottom: 2px solid #111;
+  padding: 50px 0;
+}
